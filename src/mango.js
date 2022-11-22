@@ -1,9 +1,9 @@
-
+import "./mango.css";
 function Mango(){
   return(
-      <>
-      <h1 >Mango</h1>
-      </>
+    <>
+    <div className="mango"><h1>Mango</h1></div>
+    </>
   )
 }
 
