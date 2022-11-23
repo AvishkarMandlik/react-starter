@@ -1,4 +1,4 @@
-import "./apple.css";
+import "./Apple.css";
 function Apple(){
     return(
         <>

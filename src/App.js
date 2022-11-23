@@ -1,19 +1,22 @@
-import Apple from "./apple";
-import Mango from "./mango";
+import Apple from "./Views/Apple/Apple";
+import Mango from "./Views/Mango/Mango";
+import "./App.css"
 function App(){
     return(
 
         <>
+        <div className="Apple">
            <Apple />
-           <Mango />
            <Apple />
-           <Mango />
            <Apple />
-           <Mango />
            <Apple />
-           <Mango />
            <Apple />
-           <Mango />
+        </div>
+        <div className="Mango">
+            <Mango/>
+        </div>
+
+        
         </>
     )
 }

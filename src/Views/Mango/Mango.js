@@ -1,4 +1,4 @@
-import "./mango.css";
+import "./Mango.css";
 function Mango(){
   return(
     <>
